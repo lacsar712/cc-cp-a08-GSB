@@ -127,7 +127,29 @@ td {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.nav {
+  display: flex;
+  gap: 0.5rem;
   margin-bottom: 1rem;
+}
+
+.nav button {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.nav button.active {
+  background: #0369a1;
+  color: #fff;
+}
+
+button.danger {
+  background: #b91c1c;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.8rem;
 }
 
 .user {
